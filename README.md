@@ -6,7 +6,7 @@ _Caitlin Haedrich, Helena Mitasova, Jay Levine_
 
 _North Carolina State University_
 
-[Run this repository on WholeTale](https://dashboard.wholetale.org/run/657a4583c67faf246f3b090)
+[Run this repository on WholeTale](https://dashboard.wholetale.org/run/657a4583c67faf246f3b090c)
 
 ## Abstract
 
@@ -24,7 +24,7 @@ mitigation.
 
 WholeTale is a scalable, open source, web-based platform for reproducible research.
 
-1. Go to https://dashboard.wholetale.org/run/657a4583c67faf246f3b090
+1. Go to https://dashboard.wholetale.org/run/657a4583c67faf246f3b090c
 2. Log in (there are different options)
 3. Run Tale (blue button at the top right)
 4. Confirm Copy and Run Tale
