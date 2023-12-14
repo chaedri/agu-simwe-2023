@@ -82,3 +82,14 @@ pwd
 exit
 g.list type=all
 exit
+g.region region=e023 -p
+g.region align=be_dem -p
+g.region save=e023 -p
+g.region save=e023 --overwrite
+r.proj input=naip_20140523.1 location=Stocking_Head mapset=Tangible_Landscape
+r.proj input=naip_20140523.1 location=Stocking_Head mapset=Tangible_Landscape --overwrite
+r.proj input=naip_20140523.2 location=Stocking_Head mapset=Tangible_Landscape --overwrite
+r.proj input=naip_20140523.3 location=Stocking_Head mapset=Tangible_Landscape --overwrite
+r.proj input=be_dem location=Stocking_Head mapset=PERMANENT --overwrite
+r.proj input=landcover location=Stocking_Head mapset=LandCover --overwrite
+exit
